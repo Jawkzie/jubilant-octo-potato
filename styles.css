@@ -1,0 +1,79 @@
+:root{
+    --resaltado:
+    --oscuro: 
+    --claro: 
+    --texto: 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+    html {
+    scroll-behavior: smooth;
+  }
+
+    body{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    }
+
+.hero {
+    background-color: white;
+    color: var(--claro);
+    padding: 20px;
+    text-align: center;
+}
+
+.hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero .title {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.hero .hero-text {
+    background-color: gray;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 1px 20px;
+}
+
+.hero .subtitle {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 16px;
+}
+
+.hero .text {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cursos .cursos-container {
+    background-color: wheat;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+
+
